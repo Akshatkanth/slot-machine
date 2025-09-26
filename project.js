@@ -41,7 +41,7 @@ const getNumberOfLines = () => {
         const validLines = parseFloat(lines);
 
         if(isNaN(validLines) || validLines <= 0 || validLines > 3 ){
-            console.log("Enter a valid number of lines from  1 to 3")
+            console.log("Enter a valid number of lines from  1 to 3.")
         }
         else{
             return validLines;
