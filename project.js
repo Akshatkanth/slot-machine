@@ -56,7 +56,7 @@ const getBet = (balance, lines) => {
         const numberBet = parseFloat(bet);
 
         if(isNaN(numberBet) || numberBet <= 0 || numberBet > balance/lines ){
-            console.log("Enter a valid bet amount")
+            console.log("Enter a valid bet amount to start")
         }
         else{
             return numberBet;
