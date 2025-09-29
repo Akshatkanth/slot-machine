@@ -5,14 +5,14 @@ const COLS = 3
 
 const SYMBOLS_COUNT = { //snake case convention
     //these are the amount of symbols present in the game(A is the rarest cuz only 2)
-    "A" : 2,
+    "A" : 3,
     "B" : 4,
     "C" : 6,
     "D" : 8
 }
 
 const SYMBOLS_VALUES = { //multipliers
-    "A" : 5,
+    "A" : 5.5,
     "B" : 4,
     "C" : 3,
     "D" : 2
